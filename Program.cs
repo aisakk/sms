@@ -14,3 +14,4 @@ smsClient.Send(
 
 //Ejecutar dotnet run 
 Console.WriteLine("Hello, World!");
+//Pagina tutorial: https://learn.microsoft.com/en-us/training/modules/communication-service-send-sms-console-app/3-exercise-send
