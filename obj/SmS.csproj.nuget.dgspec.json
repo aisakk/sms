@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/isaac/Documentos/Projects/SmS/SmS.csproj": {}
+  },
+  "projects": {
+    "/home/isaac/Documentos/Projects/SmS/SmS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaac/Documentos/Projects/SmS/SmS.csproj",
+        "projectName": "SmS",
+        "projectPath": "/home/isaac/Documentos/Projects/SmS/SmS.csproj",
+        "packagesPath": "/home/isaac/.nuget/packages/",
+        "outputPath": "/home/isaac/Documentos/Projects/SmS/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isaac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Communication.Sms": {
+              "target": "Package",
+              "version": "[1.0.0-beta.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
